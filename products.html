@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    
+    <!-- jQuery -->
+    <script src="assets/libs/jquery/js/jquery.min.js"></script>
+    
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/glyph/style.css">
+    
+    <!-- DotDotDot -->
+    <script src="assets/libs/dotdotdot/js/jquery.dotdotdot.min.js"></script>
+    
+    <!-- Fluidbox -->
+    <script src="assets/libs/fluidbox/jquery.fluidbox.min.js"></script>
+    <link rel="stylesheet" href="assets/libs/fluidbox/css/fluidbox.css">
+    
+    <!-- Styleable Select -->
+    <link rel="stylesheet" href="assets/libs/select/css/select-theme-default.css">
+    <script src="assets/libs/select/select.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/retina.css">
+    
+    <!-- JavaScript -->
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/fluidbox.js"></script>
+    
+   	<title>Products</title>
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-default navbar-fixed-top">
+           <div class="container">
+                 <div class="col-xs-2">
+                     <a href="index.html" class="logo"></a>
+                 </div>
+               <div class="col-xs-10">
+                   <ul>
+                       <li><a href="http://forum.runtu.org">ПОДДЕРЖКА</a></li>
+                       <li><a href="contact.html">КОНТАКТЫ</a></li>
+                       <li><a href="newsfeed.html">НОВОСТИ</a></li>
+                       <li><a href="get.html">ПОЛУЧИТЬ</a></li>
+                       <li class="active"><a href="products.html">ПРОДУКТЫ</a></li>
+                       <li><a href="index.html">ПРЕИМУЩЕСТВА</a></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="line"></div>
+       </nav>
+    </header>    
+    <div role="tabpanel" class="submenu clearfix">
+        <ul id="myTab" class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#runtu-gnome" aria-controls="runtu-gnome" role="tab" data-toggle="tab">Runtu Gnome</a></li>
+          <li role="presentation"><a href="#runtu-xfce" aria-controls="runtu-xfce" role="tab" data-toggle="tab">Runtu XFCE</a></li>
+          <li role="presentation"><a href="#runtu-lite" aria-controls="runtu-lite" role="tab" data-toggle="tab">Runtu LITE</a></li>
+        </ul>
+    </div>   
+    <article>
+      <div class="container products">
+        <!-- Tab panes -->
+        <div class="tab-content clearfix">
+            <div role="tabpanel" class="tab-pane active" id="runtu-gnome">
+                <div class="fluid-gallery clearfix">
+                    <div class="col-xs-12">
+                        <a href="assets/img/desktop-screenshot.png" data-fluidbox><img src="assets/img/desktop-screenshot.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="desc col-xs-8">
+                    <h1>Runtu Gnome 12.04.4 – 201402</h1>
+                    <p>Представляю дистрибутив Runtu GNOME 12.04, обновлённый до текущей версии 12.04.4. Сборка предназначена для новых инсталляций и содержит компоненты ядра и X-сервера, бэкпортированные из релиза Ubuntu Saucy 13.10 . В качестве сессии по-умолчанию используется сеанс Gnome-Fallback с одной нижней панелью и классическим меню.</p>
+                </div>
+                <div class="dnld-links col-xs-4">
+                    <table>
+                        <tr><td class="bold">ЗАГРУЗИТЬ</td></tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 1:</td><td class="normal-small"><a href="#">Яндекс.диск</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 2:</td><td class="normal-small"><a href="#">Sourceforge</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Размер</td><td class="normal-small">697 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">md5:</td><td class="normal-small tdmd5">36e93916a8e6e3ba133d5e3666d54907</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="feautures col-xs-8">
+                    <p>В качестве основных элементов системы мы выбрали:</p>
+                    <table>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sys-requires col-xs-4">
+                    <table>
+                        <tr><td colspan="2" class="bold">СИСТЕМНЫЕ ТРЕБОВАНИЯ</td></tr>
+                        <tr>
+                            <td class="bold-small">Оперативная память:</td><td class="normal-small">512 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Системный процессор:</td><td class="normal-small">P3 700МГц</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Жесткий диск:</td><td class="normal-small">3 Гб</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#" class="more hided" id="collapse-1">Раскрыть полный список включенного в состав дистрибутива программного обеспечения</a>
+                    <div class="collapsed" id="collapse-1-content">
+                        <table>
+                            <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="runtu-xfce">
+                <div class="fluid-gallery clearfix">
+                    <div class="col-xs-12">
+                        <a href="assets/img/desktop-screenshot.png" data-fluidbox><img src="assets/img/desktop-screenshot.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="desc col-xs-8">
+                    <h1>Runtu XFCE 12.04.4 – 201402</h1>
+                    <p>Представляю дистрибутив Runtu XFCE 12.04, обновлённый до текущей версии 12.04.4. Сборка предназначена для новых инсталляций и содержит компоненты ядра и X-сервера, бэкпортированные из релиза Ubuntu Saucy 13.10 . В качестве сессии по-умолчанию используется сеанс Gnome-Fallback с одной нижней панелью и классическим меню.</p>
+                </div>
+                <div class="dnld-links col-xs-4">
+                    <table>
+                        <tr><td class="bold">ЗАГРУЗИТЬ</td></tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 1:</td><td class="normal-small"><a href="#">Яндекс.диск</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 2:</td><td class="normal-small"><a href="#">Sourceforge</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Размер</td><td class="normal-small">697 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">md5:</td><td class="normal-small tdmd5">36e93916a8e6e3ba133d5e3666d54907</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="feautures col-xs-8">
+                    <p>В качестве основных элементов системы мы выбрали:</p>
+                    <table>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">XFCE</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sys-requires col-xs-4">
+                    <table>
+                        <tr><td colspan="2" class="bold">СИСТЕМНЫЕ ТРЕБОВАНИЯ</td></tr>
+                        <tr>
+                            <td class="bold-small">Оперативная память:</td><td class="normal-small">512 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Системный процессор:</td><td class="normal-small">P3 700МГц</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Жесткий диск:</td><td class="normal-small">3 Гб</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#" class="more hided" id="collapse-2">Раскрыть полный список включенного в состав дистрибутива программного обеспечения</a>
+                    <div class="collapsed" id="collapse-2-content">
+                        <table>
+                            <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="runtu-lite">
+                <div class="fluid-gallery clearfix">
+                    <div class="col-xs-12">
+                        <a href="assets/img/desktop-screenshot.png" data-fluidbox><img src="assets/img/desktop-screenshot.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="desc col-xs-8">
+                    <h1>Runtu LITE 12.04.4 – 201402</h1>
+                    <p>Представляю дистрибутив Runtu LITE 12.04, обновлённый до текущей версии 12.04.4. Сборка предназначена для новых инсталляций и содержит компоненты ядра и X-сервера, бэкпортированные из релиза Ubuntu Saucy 13.10 . В качестве сессии по-умолчанию используется сеанс Gnome-Fallback с одной нижней панелью и классическим меню.</p>
+                </div>
+                <div class="dnld-links col-xs-4">
+                    <table>
+                        <tr><td class="bold">ЗАГРУЗИТЬ</td></tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 1:</td><td class="normal-small"><a href="#">Яндекс.диск</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Зеркало 2:</td><td class="normal-small"><a href="#">Sourceforge</a></td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Размер</td><td class="normal-small">697 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">md5:</td><td class="normal-small tdmd5">36e93916a8e6e3ba133d5e3666d54907</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="feautures col-xs-8">
+                    <p>В качестве основных элементов системы мы выбрали:</p>
+                    <table>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">LITE</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="sys-requires col-xs-4">
+                    <table>
+                        <tr><td colspan="2" class="bold">СИСТЕМНЫЕ ТРЕБОВАНИЯ</td></tr>
+                        <tr>
+                            <td class="bold-small">Оперативная память:</td><td class="normal-small">512 Мб</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Системный процессор:</td><td class="normal-small">P3 700МГц</td>
+                        </tr>
+                        <tr>
+                            <td class="bold-small">Жесткий диск:</td><td class="normal-small">3 Гб</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#" class="more hided" id="collapse-3">Раскрыть полный список включенного в состав дистрибутива программного обеспечения</a>
+                    <div class="collapsed" id="collapse-3-content">
+                        <table>
+                            <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Оконный менеджер:</td><td class="normal">Metacity + Compiz</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Файловый менеджер:</td><td class="normal">Nautilus</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Панель рабочего стола:</td><td class="normal">Gnome-panel</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер сети:</td><td class="normal">NetworkManager</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Менеджер дисплея:</td><td class="normal">LightDM</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия ядра:</td><td class="normal">3.11.0-15-generic</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Версия Xorg:</td><td class="normal">1.14.5</td>
+                        </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+        <div class="info">
+            <div class="container">
+                <div class="col-xs-2">
+                    <a href="index.html" class="logobw"></a>
+                    <p class="copy">&copy; 2007-2014, НКО</p>
+                </div>
+                <div class="col-xs-2">
+                    <h4>ПОЛЕЗНОЕ</h4>
+                    <ul>
+                        <li><a href="get.html">Получить</a></li>
+                        <li><a href="newsfeed.html">Новости</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="http://forum.runtu.org">Поддержка</a></li>
+                        <li><a href="http://forum.runtu.org/index.php/topic,92.0.html">Runtu Jabber</a></li>
+                        <li><a href="https://ru.wikipedia.org/wiki/Runtu">История</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <h4>ПОСЛЕДНЯЯ НОВОСТЬ</h4>
+                    <div class="lastnew dot">
+                        <a href="newspage.html"><h5 class="hdot">Runtu XFCE 14.04</h5></a>
+                        <p class="text-muted">21.05.14</p>
+                        <p>Дистрибутив с окружением XFCE, основанный на пакетной базе релиза Trusty Tahr 14.04 Дистрибутив с окружением XFCE, основанный на пакетной базе релиза Trusty Tahr 14.04</p>
+                    </div>
+                </div>
+                <div class="col-xs-3 cost">
+                    <h4>НАШИ ДРУЗЬЯ</h4>
+                    <ul>
+                        <li><a href="http://ubuntu.ru">Сообщество Ubuntu</a></li>
+                        <li><a href="http://libremoney.org">LibreMoney</a></li>
+                        <li><a href="http://www.openinventionnetwork.com">Open Invention Network</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-2">
+                    <div class="subscribe">
+                        <h4>ПОДПИШИТЕСЬ<i class="icon-rss"></i></h4>
+                        <input type="text" placeholder="Введите адрес эл.почты">
+                    </div>
+                    <div class="online">
+                        <h4>МЫ В СЕТИ</h4>
+                        <a href="https://twitter.com/runtulinux"><i class="icon-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="dev">
+            <div class="container text-right">
+               <div class="clearfix">
+                  <div class="pull-right"><a href="http://parksideup.com" class="logo parkside"></a></div>
+                   <div class="pull-right">
+                       <p>Создано с любовью в</p>       
+                   </div>   
+               </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

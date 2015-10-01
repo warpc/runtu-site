@@ -1,0 +1,24 @@
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+    nav a.logo {
+		background: url("../img/logo@2x.png");
+		background-size: 93px 52px;
+	}
+
+	.info a.logobw {
+		background: url("../img/logo_bw@2x.png");
+		background-size: 93px 52px;
+	}
+
+	.dev a.logo.parkside {
+		background: url("../img/parkside_logo@2x.png");
+		background-size: 35px 40px;
+	}
+  
+    .select-target.select-theme-default b {
+        background: url("../img/chevron-down-thick@2x.png") no-repeat; 
+        background-size: 18px 10px;
+    }
+}

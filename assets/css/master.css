@@ -1,0 +1,1318 @@
+body {
+	padding-top: 76px;
+    font-family: Helvetica, "HelveticaNeue", Arial;
+}
+
+/* iCreck */
+.navbar.navbar-default.navbar-fixed-top {
+	border-bottom: none;
+	position: fixed;
+	margin-bottom: 0;
+}
+
+.navbar.navbar-default.navbar-fixed-top li a {
+	z-index: 1002;
+	position: relative;
+}
+
+.navbar.navbar-default.navbar-fixed-top .line {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #BBBBBB;
+	z-index: 1000;
+}
+/* icreck */
+nav a.logo {
+	display: block;
+	width: 93px;
+	height: 52px;
+	background: url("../img/logo.png");
+	/* margin: 12px 0px; */
+}
+
+a.logo.white {
+	display: block;
+	width: 93px;
+	height: 52px;
+	background: url("../img/logo_bw.png");
+	margin: 0px 0px 12px;
+}
+
+a.logo.parkside {
+	display: inline-block;
+	width: 35px;
+	height: 40px;
+	background: url("../img/parkside_logo.png");
+	margin: 0px 0px;
+}
+
+nav.navbar-default {
+	background: #ffffff;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+nav.navbar-default .nav-pills.text-right>li {
+	float: right;
+}
+
+nav.navbar-default .nav.nav-pills {
+    margin: 22px -10px 0px 0px;
+}
+
+nav.navbar-default .nav.nav-pills li a {
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 13px;
+    color: #6D6E71;
+    line-height: 16px;
+    padding: 10px 0px 22px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav.navbar-default .nav.nav-pills li.active a {
+    border-bottom: 6px solid #0030D0;
+    background: transparent;
+    border-radius: 0px;
+}
+
+nav.navbar-default .nav.nav-pills li a:hover {
+    background: transparent;
+    color: #0030D0;
+}
+
+nav .nav.nav-pills {
+	margin: 18px 0px 0px;
+}
+
+.main {
+	background: url("../img/bg_main.jpg") 50% 50%;
+	background-size: cover;
+	height: 554px;
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+.main .blue {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,48,208,0.8);
+}
+
+.main .container {
+    padding: 0;    
+}
+
+.main h1 {
+	font-family: "HelveticaNeue-Light", "HelveticaNeue Light", "HelveticaNeueLight", Helvetica, Arial;
+	font-size: 48px;
+	color: #FFFFFF;
+	line-height: 57px;
+    margin: 90px 0px 0px;
+}
+
+.main h3 {
+	font-family: "HelveticaNeue-Light", "HelveticaNeue Light", "HelveticaNeueLight", Helvetica, Arial;
+	font-size: 28px;
+	color: #FFFFFF;
+	line-height: 36px;
+    margin: 20px 0px 28px;
+}
+
+.btn.btn-outline {
+	border: 2px solid #FFFFFF;
+	font-family: Helvetica, "HelveticaNeue", Arial;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 29px;
+	background: transparent;
+	border-radius: 0;
+    padding: 15px 18px 16px;
+}
+
+.btn.btn-outline:hover {
+	border: 2px solid #FFFFFF;
+	font-family: Helvetica, "HelveticaNeue", Arial;
+	font-size: 24px;
+	color: #0030D0 ;
+	line-height: 29px;
+	background: #FFFFFF;
+	border-radius: 0;
+    padding: 15px 18px 16px;
+}
+
+.main .centered {
+	max-width: 590px;
+	margin: 0 auto;
+}
+
+.container.line {
+    padding: 0;
+}
+
+.container.line .tile {
+	padding: 0;
+    margin: 20px 0px 0px;
+    height: auto;
+}
+
+.tile .head {
+	width: 100%;
+	height: 150px;
+}
+
+.tile .head h2 {
+	padding: 10px 20px 0px;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue Light", "HelveticaNeueLight", Helvetica, Arial;
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 44px;
+}
+
+.tile .head .tone {
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+
+.tile .head .caption {
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+}
+
+.tile .head.bg_ru {
+	background: url("../img/bg_ru.jpg") 50% 50%;
+	background-size: cover;
+}
+
+.tile .head.bg_ru .tone {
+	background: rgba(0,196,208,0.8);
+}
+
+.tile .head.bg_comfort {
+	background: url("../img/bg_comfort.jpg") 50% 50%;
+	background-size: cover;
+}
+
+.tile .head.bg_comfort .tone {
+	background: rgba(208,155,0,0.8);
+}
+
+.tile .head.bg_speed {
+	background: url("../img/bg_speed.jpg") 50% 50%;
+	background-size: cover;
+}
+
+.tile .head.bg_speed .tone {
+	background: rgba(104,0,208,0.8);
+}
+
+.tile .head.bg_legacy {
+	background: url("../img/bg_legacy.jpg") 50% 50%;
+	background-size: cover;
+}
+
+.tile .head.bg_legacy .tone {
+	background: rgba(53,208,0,0.8);
+}
+
+.tile .head.bg_community {
+	background: url("../img/bg_community.jpg") 50% 50%;
+	background-size: cover;
+}
+
+.tile .head.bg_community .tone {
+	background: rgba(208,0,0,0.8);
+}
+
+.container.line .tile .body, .container.last .tile .body{
+	border: 1px solid #D8D8D8;
+	border-top-width: 0;
+    min-height: 196px;
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+
+.container.line .tile {
+    border: none;
+}
+
+.col-sm-12.wide .tile .body {
+    min-height: 0;
+}
+
+.tile .body p {
+	padding: 45px 40px 34px 20px;
+}
+
+.container.last {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0 ;
+    
+}
+
+.container.last .tile {
+    padding: 0;
+    height: auto;
+    border: none;
+}
+
+.container.last .tile:hover, .container.line .tile:hover {
+    cursor: default;
+    border: none;
+}
+    
+.modal .modal-content {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    width: 681px;
+}
+
+.modal h3 {
+    font-family: "HelveticaNeue-Light", "HelveticaNeue Light", "HelveticaNeueLight", Helvetica, Arial;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;
+}
+
+.modal .modal-header,
+.modal .modal-footer{
+    border-color: #BBBBBB;
+    padding: 20px;
+}
+
+.modal .modal-body {
+    padding: 27px 20px 20px;
+}
+
+.modal .modal-header button {
+    opacity: 0.5;
+    margin-right: -12px;
+    margin-top: -12px;
+    z-index: 100000;
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.modal .modal-header button:hover {
+    opacity: 1;
+}
+
+.modal .modal-header img {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+p.caption {
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+
+.btn.btn-primary {
+    border-radius: 0;
+    background: #0030D0;
+    padding: 10px 22px;
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 18px;
+}
+
+.btn.btn-primary:hover {
+    background: #0037EB;
+}
+
+.modal .modal-body p.caption {
+    margin-bottom: 0;
+}
+
+.radio-group label {
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+    top: 2px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.modal .radio-group {
+    padding-bottom: 23px;
+}
+
+.modal .radio-group:last-child {
+    padding-bottom: 0px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding: 0px 10px;
+}
+
+.map-fs {
+    width: 100%;
+    height: 500px;
+}
+
+.controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 0;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 50px;
+        outline: none;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Helvetica, "HelveticaNeue", Arial;
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        margin-left: 50px;
+        margin-top: 50px;
+        padding: 0 11px 0 44px;
+        text-overflow: ellipsis;
+        width: 400px;
+          z-index: 9999;
+      }
+
+      .pac-input-label {
+          position: absolute;
+          top: 62px;
+          left: 60px;
+          z-index: 99999;
+      }
+
+      #pac-input:focus {
+        
+      }
+
+      .pac-container {
+        font-family: Helvetica, "HelveticaNeue", Arial;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Helvetica, "HelveticaNeue", Arial;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+
+.labels-pin {
+     color: white;
+     background-color: #0030D0;
+     font-family: Helvetica, "HelveticaNeue", Arial;
+     font-size: 16px;
+     font-weight: bold;
+     text-align: center;
+     width: 40px;
+     display: block;
+     height: 40px;
+     border-radius: 20px;
+     vertical-align: middle;
+     line-height: 40px;
+     white-space: nowrap;
+   }
+
+article {
+    position: relative;
+}
+
+.list-placeholder {
+    width: 512px;
+    position: absolute;
+    height: 400px;
+    overflow-y: scroll;
+    background: #fff;
+    top: 50px;
+    right: 0px;
+}
+
+.list-placeholder > div {
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.list-placeholder > div:last-child {
+    border-bottom: 0px;
+}
+
+.list-placeholder h2 {
+    padding: 20px;
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "HelveticaNeue Light", "HelveticaNeueLight", Helvetica, Arial;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;
+    max-height: 90px;
+    padding: 20px 20px 20px 60px;
+}
+
+.list-placeholder img {
+    padding-right: 10px;
+    margin-top: -5px;
+    display: inline-block;
+    position: absolute;
+    top: 34px;
+    left: 20px;
+}
+
+.list-header {
+    position: relative;
+}
+
+.list-placeholder table {
+    margin: 0px 20px 20px;
+}
+
+.list-placeholder table tr td {
+    vertical-align: top;
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+
+.list-placeholder table tr td:first-child {
+    width: 150px;
+    padding-right: 5px;
+    font-family: Helvetica, "HelveticaNeue", Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+
+.collapsed {
+    display: none;
+}
+
+/* iCreck */
+
+body {
+    padding-top: 76px;
+}
+
+nav.navbar {
+    background: #FFF;
+    border-bottom: 1px solid #bbbbbb;   
+}
+
+nav.navbar.have-submenu {
+    border-bottom: none;   
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    border-bottom: none;
+    position: fixed;
+    margin-bottom: 0;
+}
+
+.navbar.navbar-default.navbar-fixed-top li a {
+    z-index: 1002;
+    position: relative;
+}
+
+.navbar.navbar-default.navbar-fixed-top .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #BBBBBB;
+    z-index: 1000;
+}
+
+nav a.logo {
+    display: block;
+    width: 93px;
+    height: 52px;
+    background: url('../img/logo.png');
+}
+
+nav.navbar .text-right {
+    padding-right: 10px;
+}
+
+/* nav.navbar .col-xs-2, nav.navbar .col-xs-10 {
+    padding: 0px 10px;   
+} */
+
+nav.navbar .col-xs-2 a {
+    display: block;
+    margin: 11px 0px 13px 0px;
+}
+
+nav.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*max-height: 76px;*/
+}
+
+nav.navbar ul li {
+    display: block;
+}
+
+nav.navbar ul li a {
+    margin: 30px 0px 0px 17px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #6D6E71;
+    line-height: 16px;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    border-bottom: 6px solid transparent;
+    padding-bottom: 24px;
+}
+
+nav.navbar ul li.active a {
+    border-bottom: 6px solid #0030d0;
+
+}
+
+nav.navbar ul li a:hover {
+    text-decoration: none;
+    color: #0030d0;
+}
+
+nav.navbar {
+    min-height: 76px;       
+}
+
+.container {
+    max-width: 960px;
+    padding: 0;
+}
+
+article .container {
+    padding-top: 50px;
+    padding-bottom: 170px;
+}
+
+article .container .col-sm-6 {
+    padding: 0px 10px;
+}
+
+article .tile {
+    height: 253px;
+    border: 1px solid #d8d8d8;
+    padding: 20px 20px 15px 20px;
+    margin-bottom: 20px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+article .tile:hover {
+    border: 1px solid #0030d0;   
+}
+
+article .tile a {
+    color: #6d6e71;
+    text-decoration: none;
+}
+
+article .tile a:hover {
+    color: #6d6e71;
+    text-decoration: underline;
+}
+
+article .tile h1 {
+    font-family: "HelveticaNeue-Light","HelveticaNeue Light","HelveticaNeueLight","Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica-Neue-Light", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;
+    margin-top: 0;
+    margin-bottom: 12px; 
+    height: 44px; /* for dotdotdot */
+}
+
+article .tile .text-muted {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #6D6E71;
+    line-height: 25px;
+    margin-bottom: 9px;
+}
+
+article .tile p  {
+    padding: 0;
+    margin: 0;
+}
+
+article .new {
+    padding: 0;
+}
+
+article .new h1 {
+    font-family: "HelveticaNeue-Light","HelveticaNeue Light","HelveticaNeueLight","Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica-Neue-Light", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;
+    margin: 0px 0px 4px;
+    padding: 0 10px;
+}
+
+article .new p.text-muted {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #6D6E71;
+    line-height: 25px; 
+    margin-bottom: 0px;
+    padding: 0 10px;
+}
+
+article .new p.news {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px; 
+    margin: 7px 0px 26px;
+    padding: 0 10px;
+}
+
+article .new .accent {
+    text-decoration: underline;
+}
+
+article .new .accent-low {
+    font-style: italic;
+}
+
+article .new .accent-medium {
+    font-weight: bold;
+}
+
+article .new .accent-high {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+article .new .accent-color {
+    color: #004BD9;
+}
+
+article .new .fluid-gallery {
+    margin-bottom: 33px;
+}
+
+article .new .fluid-gallery .col-xs-6 {
+    padding: 0 10px;
+}
+
+.fluid-gallery .col-xs-12 {
+    padding: 0 10px;
+}
+
+/* Fluidbox */
+a[data-fluidbox] {
+  background-color: #eee;
+  border: none;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  margin-bottom: 1.5rem;
+}
+a[data-fluidbox].fluidbox-opened {
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+}
+a[data-fluidbox] img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  max-width: 100%;
+  transition: all .25s ease-in-out;
+}
+
+a[class^='float'] {
+  margin: 1rem;
+  margin-top: 0;
+  width: 33.33333%;
+}
+a[class^='float'].float-left {
+  float: left;
+  margin-left: 0;
+}
+a[class^='float'].float-right {
+  float: right;
+  margin-right: 0;
+}
+
+#fluidbox-overlay {
+  background-color: rgba(100, 100, 100, 0.85);
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 500;
+}
+
+.fluidbox-wrap {
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  z-index: 400;
+  transition: all .25s ease-in-out;
+}
+.fluidbox-opened .fluidbox-wrap {
+  z-index: 600;
+}
+
+.fluidbox-ghost {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  transition: all .25s ease-in-out;
+}
+/* End of Fluidbox */
+
+/*contact.html*/
+article .contact {
+    padding: 0 10px;   
+}
+
+article .contact h1 {
+    font-family: "HelveticaNeue-Light","HelveticaNeue Light","HelveticaNeueLight","Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica-Neue-Light", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;    
+}
+
+article .contact p {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;    
+}
+
+article .contact p a {
+    color: #004BD9;
+    text-decoration: none;
+}
+
+article .contact p a:hover {
+    color: #004BD9;
+    text-decoration: underline;
+}
+
+article .contact-form {
+    padding: 0 10px;
+    width: 620px;
+}
+
+article .contact-form h1 {
+    font-family: "HelveticaNeue-Light","HelveticaNeue Light","HelveticaNeueLight","Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica-Neue-Light", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;    
+}
+
+article .contact-form .form-control {
+    background: transparent;
+    border: 2px solid #bbb;
+    border-radius: 0px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6d6e71;
+    line-height: 18px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    
+}
+
+
+  .form-control::-webkit-input-placeholder {color:#bbb; font-style: italic}
+  .form-control::-moz-placeholder          {color:#bbb; font-style: italic}/* Firefox 19+ */
+  .form-control:-moz-placeholder           {color:#bbb; font-style: italic}/* Firefox 18- */
+  .form-control:-ms-input-placeholder      {color:#bbb; font-style: italic}
+
+/* Styleable Select */
+.select.select-theme-default .select-content {
+    border-radius: 0px; 
+    box-shadow: none;
+    background: white;
+    font-family: inherit;
+    color: inherit;
+    overflow: auto;
+    width: 600px;
+    max-width: 600px;
+    border: 2px solid #bbb;
+    border-top: none;
+}
+    .select.select-theme-default .select-options {
+    margin: 0;
+    padding: 0; }
+    
+    .select.select-theme-default .select-options .select-option {
+      margin: 0;
+      font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      color: #6D6E71;
+      line-height: 18px;
+      padding: 1rem 1em 1rem 2.5em; }
+      .select.select-theme-default .select-options .select-option.select-option-selected:before {
+        content: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='-0.5 0 20 15'><rect fill='#6D6E71' stroke='none' transform='rotate(45 4.0033 8.87436)' height='5' width='6.32304' y='6.37436' x='0.84178'></rect><rect fill='#6D6E71' stroke='none' transform='rotate(45 11.1776 7.7066)' width='5' height='16.79756' y='-0.69218' x='8.67764'></rect></svg>");
+        }
+      .select.select-theme-default .select-options .select-option:hover, .select.select-theme-default .select-options .select-option.select-option-highlight {
+        background: #0030D0;
+        color: white; }
+      .select.select-theme-default .select-options .select-option:first-child {
+        border-radius: 0px; }
+      .select.select-theme-default .select-options .select-option:last-child {
+        border-radius: 0px; }
+
+    .select-target.select-theme-default {
+        background: transparent;
+        border: 2px solid #bbb;
+        border-radius: 0px;
+        min-height: 50px;
+        width: 600px;
+        margin-bottom: 20px;
+        font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        color: #BBB;
+        line-height: 18px;
+        padding: 14px 0px 14px 12px; }
+      .select-target.select-theme-default:hover {
+        border-color: #bbb;
+        color: #6d6e71; }
+      .select-target.select-theme-default.select-target-focused, .select-target.select-theme-default.select-target-focused:focus {
+        border-color: #bbb;}
+      .select-target.select-theme-default b {
+        right: 10px;
+        width: 18px;
+        background: url("../img/chevron-down-thick.png") no-repeat; }
+        .select-target.select-theme-default b:before {
+          top: 0;
+          border-bottom-color: transparent; }
+        .select-target.select-theme-default b:after {
+          bottom: 0;
+          border-top-color: transparent; }
+        .select-target.select-theme-default.select-abutted.select-abutted-left.select-element-attached-top.select-element-attached-left.select-target-attached-bottom.select-target-attached-left.RUNTU {
+            font-style: normal;
+            color: #6d6e71;
+        }
+/* End of Styleable Select */
+
+article .contact-form textarea {
+    min-height: 150px!important;   
+}
+
+article .btn.btn-primary {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 18px;  
+    height: 50px;
+    width: 170px;
+    border-radius: 0px;
+    background: #0030D0;
+}
+/* End of contact.html */
+
+/* products.html */
+.container.products {
+    padding: 0;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.submenu .nav-tabs {
+    text-align: center;
+    background: #2e2a2b;
+    height: 38px;
+}
+
+.submenu .nav-tabs>li {
+    float: none;
+    display: inline-block;
+}
+
+.submenu .nav-tabs {
+    border-bottom: none;
+}
+
+.submenu .nav-tabs>li>a,.submenu .nav-tabs>li.active>a, 
+.submenu .nav-tabs>li.active>a:hover {
+    border: none;
+    border-radius: 0px;
+    background: #2E2A2B;
+    padding: 10px 0px 3px 0px;
+    margin: 0 9px;
+    display: inline-block;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+}
+
+.submenu .nav-tabs>li.active>a, .submenu .nav-tabs>li.active>a:hover {
+    border-bottom: 6px solid #0030d0;
+}
+    .submenu .nav-tabs>li>a:hover {
+        color: #6D6E71;
+    }
+
+.tab-content {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 170px;
+}
+
+.tab-pane .col-xs-4, .tab-pane .col-xs-8, .tab-pane .col-xs-12 {
+    padding: 0 10px;
+}
+
+.tab-pane h1 {
+    font-family: "HelveticaNeue-Light","HelveticaNeue Light","HelveticaNeueLight","Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica-Neue-Light", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    line-height: 44px;
+    margin: 31px 0px 4px 0px;
+}
+
+.tab-pane p {
+    /* Представляю дистрибу: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+.tab-pane .dnld-links table {
+    margin-top: 75px;
+    margin-left: 16px;
+    /* table-layout: fixed; */
+    
+}
+
+.tdmd5 {
+    width: 190px; 
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.feautures {
+    margin-bottom: 10px;
+}
+
+.feautures p {
+    margin-top: 15px;   
+}
+
+.feautures .bold, .collapsed .bold {
+        width: 210px;
+}
+
+.sys-requires table {
+    margin: 20px 0px 0px 16px;
+}
+
+.sys-requires .bold-small {
+    width: 173px;
+}
+
+.collapsed {
+    margin-top: 10px;   
+}
+
+.tab-pane td.bold, .collapsed td.bold {
+    /* Оконный менеджер:: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;
+}
+.tab-pane td.normal, .collapsed td.normal{
+    /* Metacity + Compiz: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 25px;   
+}
+.tab-pane td.bold-small {
+    /* Зеркало 1:: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6D6E71;
+    line-height: 22px;    
+}
+
+.tab-pane td.normal-small {
+    /* Яндекс.Диск: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #6d6e71;
+    line-height: 22px; 
+    word-wrap: break-word;
+}
+
+.tab-pane td a, .tab-pane td a:hover {
+    /* Яндекс.Диск: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #004BD9;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.tab-pane a.more {
+    /* Раскрыть полный спис: */
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #0030D0;
+    line-height: 25px; 
+    text-decoration: none;
+}
+/* End of products.html */
+/* newsfeed.html>pagination */
+nav .pagination {
+    padding: 0;
+    margin: 0 0 8px;
+    height: auto;
+}
+
+
+nav .pagination li a{
+    border: none;
+    margin: 0;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #6D6E71;
+    line-height: 17px;
+    height: 23px;
+    width: 23px;
+    padding: 2px 7px 3px;
+    margin-right: 7px;
+}
+
+nav .pagination li a:hover{
+    background: #FFF;
+    color: #0030d0;
+}
+
+nav .pagination li.active a {
+    border: none;
+    font-weight: bold;
+    background: #0030d0;
+}
+
+nav .pagination li.active a:hover {
+    background: #0030d0;   
+}
+
+nav .pagination li.disabled a {
+    color: #bbbbbb;
+}
+/*newsfeed.html>paginator*/
+
+.info {
+    min-height: 250px;
+    background: #2e2a2b;
+    padding-top: 66px;
+}
+
+.info .container {
+    padding: 0px 10px;
+}
+
+.info a.logobw {
+    display: block;
+    height: 52px;
+    width: 93px;
+    background: url('../img/logo_bw.png');
+}
+
+.info .copy {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 14px;
+    margin-top: 10px;   
+}
+
+.info h4{
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    margin-top: 5px;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.info ul li a{ 
+    text-decoration: none;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 18px;
+}
+
+.info ul li a:hover {
+    text-decoration: underline;
+}
+
+.info h5 {
+    font-family: "HelveticaNeue-Medium","HelveticaNeue Medium","HelveticaNeueMedium","Helvetica Neue-Medium", "Helvetica Neue Medium", "Helvetica-Neue-Medium", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 21px;
+    max-height: 25px;
+}
+
+.info .col-xs-3 {
+    padding: 0;
+}
+
+.info .col-xs-3.cost {
+    padding-left: 40px;
+}
+
+.info .col-xs-2 {
+    padding: 0;
+}
+
+.info .lastnew {
+    height: 110px;
+    max-width: 210px;
+}
+
+.info .lastnew a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info .lastnew a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.info .lastnew p {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+}
+
+.info .text-muted {
+    margin: 0; 
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #d8d8d8;
+    line-height: 21px;
+}
+
+.info .subscribe h5 {
+    float: left;
+    width: 150px;
+}
+
+.info .subscribe i.icon-rss {
+    margin-left: 13px;
+}
+
+.info input {
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #fff;
+    height: 30px;
+    width: 160px;
+    padding: 6px 11px 6px 8px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #D8D8D8;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.info .online {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.info .online a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.info .online a:hover{
+    text-decoration: none;
+    color: #55acee;
+}
+
+.info .online h5 {
+    margin-bottom: 8px;
+}
+
+.dev {
+    min-height: 50px;
+    background: #000;
+    padding-top: 5px;
+}
+
+.dev .container {
+    padding: 0px 10px; 
+}
+ 
+.dev p {
+    font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    padding-top: 12px;
+}
+
+.dev a.logo.parkside {
+    display: inline-block;
+    height: 40px;
+    width: 35px;
+    background: url('../img/parkside_logo.png');
+    margin-left: 8px;
+}

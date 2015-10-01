@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'runtu';
+	src:url('fonts/runtu.eot?-nq1yjn');
+	src:url('fonts/runtu.eot?#iefix-nq1yjn') format('embedded-opentype'),
+		url('fonts/runtu.woff?-nq1yjn') format('woff'),
+		url('fonts/runtu.ttf?-nq1yjn') format('truetype'),
+		url('fonts/runtu.svg?-nq1yjn#runtu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'runtu';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-left:before {
+	content: "\e604";
+}
+
+.icon-chevron-right:before {
+	content: "\e605";
+}
+
+.icon-arrow-left-paginator:before {
+	content: "\e600";
+}
+
+.icon-arrow-right-paginator:before {
+	content: "\e601";
+}
+
+.icon-rss:before {
+	content: "\e602";
+}
+
+.icon-twitter:before {
+	content: "\e603";
+}
+
