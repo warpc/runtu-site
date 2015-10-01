@@ -3,35 +3,35 @@
 <head>
   	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    
+
     <!-- jQuery -->
     <script src="assets/libs/jquery/js/jquery.min.js"></script>
-    
+
     <!-- BootStrap -->
     <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
     <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-    
+
     <!-- Fonts -->
     <link rel="stylesheet" href="assets/fonts/glyph/style.css">
-    
+
     <!-- DotDotDot -->
     <script src="assets/libs/dotdotdot/js/jquery.dotdotdot.min.js"></script>
-    
+
     <!-- Fluidbox -->
     <script src="assets/libs/fluidbox/jquery.fluidbox.min.js"></script>
     <link rel="stylesheet" href="assets/libs/fluidbox/css/fluidbox.css">
-    
+
     <!-- Styleable Select -->
     <link rel="stylesheet" href="assets/libs/select/css/select-theme-default.css">
     <script src="assets/libs/select/select.min.js"></script>
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/retina.css">
-    
+
     <!-- JavaScript -->
     <script src="assets/js/scripts.js"></script>
-    
+
    	<title>Contact</title>
 </head>
 <body>
@@ -54,7 +54,7 @@
             </div>
             <div class="line"></div>
        </nav>
-    </header>   
+    </header>
     <article>
         <div class="container">
             <div class="contact clearfix">
@@ -65,10 +65,10 @@
             </div>
             <div class="contact-form clearfix">
                 <h1>Написать обращение</h1>
-                <form action="#">
-                    <input type="text" class="form-control" placeholder="Ваше имя"/>
-                    <input type="text" class="form-control" placeholder="Ваш адрес электронной почты"/>
-                    <select data-className="select-theme-default">
+                <form action="//formspree.io/org@runtu.org" method="POST">
+                    <input type="text" class="form-control" placeholder="Ваше имя" name="name"/>
+                    <input type="text" class="form-control" placeholder="Ваш адрес электронной почты" name="_replyto"/>
+                    <select data-className="select-theme-default" name="_subject">
                         <option select disabled selected>Выберите причину обращения</option>
                         <option value="1">У меня технический вопрос</option>
                         <option value="2">Хочу стать распространителем</option>
@@ -77,10 +77,11 @@
                         <option value="5">Другое</option>
                     </select>
                     <textarea class="form-control" placeholder="Расскажите подробнее о причине"></textarea>
+                    <input type="text" name="_gotcha" style="display:none" />
                     <button type="submit" class="btn btn-primary pull-right">Отправить</button>
                 </form>
             </div>
-        </div>      
+        </div>
     </article>
     <footer>
         <div class="info">
@@ -127,14 +128,14 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="dev">
             <div class="container text-right">
                <div class="clearfix">
                   <div class="pull-right"><a href="http://parksideup.com" class="logo parkside"></a></div>
                    <div class="pull-right">
-                       <p>Создано с любовью в</p>       
-                   </div>   
+                       <p>Создано с любовью в</p>
+                   </div>
                </div>
             </div>
         </div>
